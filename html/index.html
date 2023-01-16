@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de Tarefas</h1>
+            <hr>
+        </header>
+        <form id="form">
+            <div class="control">
+                <input type="text" id="input" placeholder="Adicione uma tarefa:">
+                <button type="submit">
+                    <i class="fa-thin fa-plus"></i>
+                </button>
+            </div>
+        </form>
+        <form id="edit" class="hide">
+            <div class="control">
+                <input type="text" id="edit_input" placeholder="Editar tarefa:">
+                <button type="submit">
+                    <i class="fa-solid fa-check-double"></i>
+                </button>
+            </div>
+        </form>
+        <div id="toda_lista">
+            <div class="tudo done">
+                <h3>Acordar, escovar os dentes e tomar banho</h3>
+                <button class="feito">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="editar">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remover">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </div>
+            <div class="tudo">
+                <h3>Café da manhã</h3>
+                <button class="feito">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="editar">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remover">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </div>
+            <div class="tudo">
+                <h3>Deixar a casa e ir correr na praia</h3>
+                <button class="feito">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="editar">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remover">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </div>
+            <div class="tudo">
+                <h3>Chegar em casa, tomar banho e comer</h3>
+                <button class="feito">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="editar">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remover">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </div>
+            <div class="tudo">
+                <h3>Ir ao trabalho</h3>
+                <button class="feito">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="editar">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remover">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </div>
+        </div>
+    <!-- javascript -->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
